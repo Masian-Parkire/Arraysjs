@@ -19,8 +19,8 @@ console.log(arr4);
 var arr = ["apple", "mango", "apple",
             "orange", "mango", "mango"];
             function remove(arr) {
-                return arr.filter((item, 
-                    index) => arr.indexOf(item) === index);
+                return arr.filter((fruit, 
+                    dup) => arr.indexOf(fruit) !== dup);
             }
               
             console.log(remove(arr)); 
@@ -30,5 +30,20 @@ var arr = ["apple", "mango", "apple",
 
             }
             console.log(duplicate(arr));
+
+        let k = ["the", "way", "x", 4] ; 
+        let search = "the";
+        if (k.includes = (search)){
+          console.log(search)
+        }
+ else{
+  console.log("the search word was not found")
+ }
+  //Write a JS script to sort the following string
+let word = "sevink"
+
+ let words2 =word.sort()
+console.log(words2)
+
 
   
