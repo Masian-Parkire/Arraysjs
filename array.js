@@ -32,8 +32,8 @@ var arr = ["apple", "mango", "apple",
             console.log(duplicate(arr));
 
         let k = ["the", "way", "x", 4] ; 
-        let search = "the";
-        if (k.includes = (search)){
+        let search = "we";
+        if (k.includes(search)){
           console.log(search)
         }
  else{
@@ -41,9 +41,8 @@ var arr = ["apple", "mango", "apple",
  }
   //Write a JS script to sort the following string
 let word = "sevink"
-
- let words2 =word.sort()
-console.log(words2)
+let word2 = word.split('').sort().join('');
+console.log(word2);
 
 
   
